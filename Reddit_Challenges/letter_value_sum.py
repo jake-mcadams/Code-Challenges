@@ -8,7 +8,7 @@ def get_input() ->str:
     
 def check_input(word:str) ->str:
     if word.isalpha():
-        print(f"Word is all letters.")
+        # print(f"Word is all letters.")
         return word
     else:
         print("The entered word appears to have characters that are not letters. Please check input")
@@ -18,7 +18,7 @@ def check_input(word:str) ->str:
 def get_sum(word:str) ->int:
     counter=0
     for letter in word:
-        print("Letter: %s\nNumber: %d" % (letter, letters[letter]))
+        # print("Letter: %s\nNumber: %d" % (letter, letters[letter]))
         counter+=letters[letter]
     return counter
     
